@@ -15,13 +15,13 @@ The "Average" fields are not likely useful for our analyses because we are more 
 
 #### Q3: What type of calculations should "X" and "Y" be in the step above? Why?
 
-Q3 Response Here (<100 words)
+
 
 
 
 #### Q4: What is the total KBTU combined electricity and gas consumption in PG&E territory in 2017? What is the average annual electricity consumption per customer, and average annual gas consumption per customer?
 
-Q4 Response Here (<100 words)
+The total KBTU combined electricity and gas consumption in PG&E territory in 2017 is 2.89205E+11 KBTU. The average annual electricity consumption per customer is
 
 
 
