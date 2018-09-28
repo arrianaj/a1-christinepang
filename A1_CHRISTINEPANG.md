@@ -1,15 +1,15 @@
 CEE 224X | Released: 180925 | Due: 181002
-Name:
+Name: Christine Pang
 
 #### Q1: What are the “Combined” fields referring to? How do you think this information may affect our analyses?
 
-Q1 Response Here (<100 words)
+The "Combined" fields refer to whether or not the PG&E energy datasets met the Commission Decision aggregation requirements regarding the minimum number of Residential and Non-Residential customers and their respective contributions to total consumption. If the aggregation was not met, consumption data was combined with that from neighboring zip codes until the requirement was satisfied, indicated by "Y" in the cell. Combining data across different zip codes could cause our analyses on energy consumption in a region to be not representative of the actual consumption in the particular zip code listed.
 
 
 
 #### Q2: Why are the “Average” fields likely not useful for our analyses?
 
-Q2 Response Here (<100 words)
+The "Average" fields are not likely useful for our analyses because we are more interested in how total energy use is distributed spatially (by zip code) rather than what the average energy consumption per customer per zip code is.
 
 
 
@@ -63,9 +63,9 @@ Q10 Response Here (<250 words)
 
 #### Q11 In total, how long did Assignment 1 take?
 
-Part 1: Tech Setup: _ minutes
+Part 1: Tech Setup: 150 minutes
 
-Part 2: Pre-Assessment: _ minutes
+Part 2: Pre-Assessment: 30 minutes
 
 Part 3: Readings: _ minutes
 
