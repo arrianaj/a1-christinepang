@@ -21,13 +21,16 @@ The "Average" fields are not likely useful for our analyses because we are more 
 
 #### Q4: What is the total KBTU combined electricity and gas consumption in PG&E territory in 2017? What is the average annual electricity consumption per customer, and average annual gas consumption per customer?
 
-The total KBTU combined electricity and gas consumption in PG&E territory in 2017 is 2.89205E+11 KBTU. The average annual electricity consumption per customer is
+The PG&E data files double count the month of September (month 9) in the Q3 and Q4 reports, so I only used the September results from the Q3 report and deleted those from the Q4 report. The total KBTU combined electricity and gas consumption in PG&E territory for the Residential Customer Class in 2017 is 2.7371E+11 KBTU. The average annual electricity consumption per customer is ????
 
 
 
 #### Q5: How would you explain the results of this chart to an average property owner in Northern California? What would be the value of conducting further "seasonal" analyses of energy use, compared to "year-long" analyses, and how would you define seasonal boundaries?
 
-Q5 Response Here (<250 words)
+The chart results indicate that residents in Northern California use the most gas in the winter months (around November – April). This is due to colder weather causing residents to use their heaters more. The electricity usage is roughly constant throughout the year but slightly greater in the summer months of July and August. This is because while summer months are hotter than the rest of the year, northern California generally does not experience extremely hot temperatures, so people won’t use their air conditioners as much.
+“Seasonal” analyses of energy use would be beneficial to better understand the fluctuations of energy use within a season or month(s) because we can see that it changes drastically throughout the year, so any action proposed to change energy use should depend on the season. Comparatively, a “year-long” analysis would only report energy consumed over the whole year and would not be able to differentiate between months of the year that contain the largest energy usage. 
+For Northern California, I would define seasonal boundaries based on the amount gas and electicity used in a month along with its rate of change over the year. Winter is December - February, which has the highest gas usage. Spring is March – May (gas usage decreases), Summer is June – August (gas usage stabilizes, electricity usage increases), and Fall is September – November (gas usage increased, electricity usage decreases).
+
 
 
 
