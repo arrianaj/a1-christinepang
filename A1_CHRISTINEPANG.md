@@ -42,25 +42,25 @@ I first calculated the total number of electricity and gas customers separately 
 
 #### Q7 Paste a publicly viewable link to your Slides.
 
-Q7 Response Here
+https://drive.google.com/open?id=1ImHp3HNFTN2WhCwSonvjgIqOxPKlhOsdFc8VFexiF6g
 
 
 
 #### Q8 In what ways do the results in or in the vicinity of your chosen zip code validate or contradict your expectations?
 
-Q8 Response Here (<100 words)
+It is interesting to see that Stanford's average kBTU consumption per customer is in the highest bracket whereas its total consumption is in the lowest bracket due to the zip code having fewer customers than the other zip codes near it. This agrees with my expectation that the average energy consumption per customer is high in Stanford because there are many students living close together (like in residence halls) that would constitute one "customer" by PG&E, but collectively they use a lot of electricity/gas.
 
 
 
 #### Q9 Any other reactions to completing Pass One? What was especially challenging or surprising in the workflow? How might you expand on this analysis if you had more time?
 
-Q9 Response Here (<250 words)
+The most challenging parts for me were getting used to all of the different analysis tools and software that I have never used before (I'm still even getting used to slack) and trying to not get overwhelmed by them. I was surprised by how helpful and useful pivot tables are even though it took a while to understand. This analysis could be expanded by looking into the seasonal variations of energy consumption to see if there see if different areas use more energy at different times of the year or if the annual spatial variation of energy use is representative of the whole year.
 
 
 
 #### Q10 How would you compare the experienced or apparent work involved, as well as the usefulness of the outcome, of Pass One vs. Pass Two? How would you rate the difficulty of this assignment?
 
-Q10 Response Here (<250 words)
+There was much more work involved in Pass One than Pass Two but that is because I didn't write my own script for the R or Python code. If I had, I think Pass Two would have been much more difficult for me since I don't have much experience in either and even encountered some problems when using the provided R code. In terms of the end product of both passes, the usefulness is about the same, but in terms of how much I learned, the first pass was more helpful in teaching me how to use ArcGIS and how to process data.
 
 
 
@@ -70,8 +70,8 @@ Part 1: Tech Setup: 150 minutes
 
 Part 2: Pre-Assessment: 30 minutes
 
-Part 3: Readings: _ minutes
+Part 3: Readings: 30 minutes
 
-Part 4: Practice Data Dive: Pass 1: _ minutes
+Part 4: Practice Data Dive: Pass 1: 480 minutes (but I am slow and had to redo things a few times)
 
-Part 4: Practice Data Dive: Pass 2: _ minutes
+Part 4: Practice Data Dive: Pass 2: 120 minutes
