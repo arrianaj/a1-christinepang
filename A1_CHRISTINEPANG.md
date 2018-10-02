@@ -3,13 +3,13 @@ Name: Christine Pang
 
 #### Q1: What are the “Combined” fields referring to? How do you think this information may affect our analyses?
 
-The "Combined" fields refer to whether or not the PG&E energy datasets met the Commission Decision aggregation requirements regarding the minimum number of Residential and Non-Residential customers and their respective contributions to total consumption. If the aggregation was not met, consumption data was combined with that from neighboring zip codes until the requirement was satisfied, indicated by "Y" in the cell. Combining data across different zip codes could cause our analyses on energy consumption in a region to be not representative of the actual consumption in the particular zip code listed.
+The "Combined" fields refer to whether or not the PG&E energy datasets met the Commission Decision aggregation requirements regarding the minimum number of Residential (100) and Non-Residential (15) customers and their respective contributions to total consumption. If the aggregation was not met, consumption data was combined with that from neighboring zip codes until the requirement was satisfied, indicated by "Y" in the cell. Combining data across different zip codes could cause our analyses on energy consumption in a region to be not representative of the actual consumption in the particular zip code listed.
 
 
 
 #### Q2: Why are the “Average” fields likely not useful for our analyses?
 
-The "Average" fields are not likely useful for our analyses because we are more interested in how total energy use is distributed spatially (by zip code) rather than what the average energy consumption per customer per zip code is.
+The "Average" fields represent the average electricity or gas use per customer per zip code per month, and these numbers are not likely useful for our analyses because the number of customers across the 12 months and zipcodes varies. This means that it wouldn't be accurate to mathematically combine or add these average values together to obtain an annual average of energy consumption because the data were taken over different sized populations and could be referencing different customers. 
 
 
 
@@ -21,7 +21,7 @@ The "Average" fields are not likely useful for our analyses because we are more 
 
 #### Q4: What is the total KBTU combined electricity and gas consumption in PG&E territory in 2017? What is the average annual electricity consumption per customer, and average annual gas consumption per customer?
 
-The PG&E data files double count the month of September (month 9) in the Q3 and Q4 reports, so I only used the September results from the Q3 report and deleted those from the Q4 report. The total KBTU combined electricity and gas consumption in PG&E territory for the Residential Customer Class in 2017 is 2.7371E+11 KBTU. The average annual electricity consumption per customer is ????
+The PG&E data files double count the month of September (month 9) in the Q3 and Q4 reports, so I only used the September results from the Q3 report and deleted those from the Q4 report. After doing this, the total KBTU combined electricity and gas consumption in PG&E territory for the Residential Customer Class in 2017 is 2.7371E+11 kBTU. The average annual electricity consumption per customer is 21953 kBTU and the average annual gas consumption per customer is 43268 kBTU.
 
 
 
@@ -36,7 +36,7 @@ For Northern California, I would define seasonal boundaries based on the amount 
 
 #### Q6: Explain your choice of formula for "avgkbtu".
 
-Q6 Response Here (<100 words)
+I first calculated the total number of electricity and gas customers separately by averaging the number of customers listed over the 12 months for each zip code and then summed them over all zip codes. To account for some zip codes having just electricity customers, some having just gas customers, and some having both, I calculated "avgkbtu" differently for each. For zip codes with just electricity or gas customers, the average kBTU per customer was the total electricity or gas kBTU for the year divided by the total respective customers. For the combined (electricity & gas customers) case, the two opposite ends of the spectrum to consider were that all electricity and gas customers are independent of each other or that all gas customers are also electricity customers. For residential areas, I believe it's more likely that gas and electricity customers are overlapped so I calculated average kBTU as total electricity + gas kBTU divided by the larger of electricity or gas customers.
 
 
 
