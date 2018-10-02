@@ -22,7 +22,7 @@ The "Average" fields represent the average electricity or gas use per customer p
 #### Q4: What is the total KBTU combined electricity and gas consumption in PG&E territory in 2017? What is the average annual electricity consumption per customer, and average annual gas consumption per customer?
 
 The PG&E data files double count the month of September (month 9) in the Q3 and Q4 reports, so I only used the September results from the Q3 report and deleted those from the Q4 report. After doing this, the total KBTU combined electricity and gas consumption in PG&E territory for the Residential Customer Class in 2017 is 2.7371E+11 kBTU. The average annual electricity consumption per customer is 21953 kBTU and the average annual gas consumption per customer is 43268 kBTU.
-![](smb://soe-files/sdc-sus$/CEE224X/Student Folders/Christine Pang/CEE224X_A1.png)
+![](/Volumes/sdc-sus$/CEE224X/Student Folders/Christine Pang/CEE224X_A1.png)
 
 
 
