@@ -23,6 +23,7 @@ The "Average" fields represent the average electricity or gas use per customer p
 
 The PG&E data files double count the month of September (month 9) in the Q3 and Q4 reports, so I only used the September results from the Q3 report and deleted those from the Q4 report. After doing this, the total KBTU combined electricity and gas consumption in PG&E territory for the Residential Customer Class in 2017 is 2.7371E+11 kBTU. The average annual electricity consumption per customer is 21953 kBTU and the average annual gas consumption per customer is 43268 kBTU.
 
+Comments: I also got the exact same answers since I had also excluded the repeated data for quarter 4. This is a good catch. 
 
 
 
@@ -32,6 +33,8 @@ The chart results indicate that residents in Northern California use the most ga
 “Seasonal” analyses of energy use would be beneficial to better understand the fluctuations of energy use within a season or month(s) because we can see that it changes drastically throughout the year, so any action proposed to change energy use should depend on the season. Comparatively, a “year-long” analysis would only report energy consumed over the whole year and would not be able to differentiate between months of the year that contain the largest energy usage. 
 For Northern California, I would define seasonal boundaries based on the amount gas and electicity used in a month along with its rate of change over the year. Winter is December - February, which has the highest gas usage. Spring is March – May (gas usage decreases), Summer is June – August (gas usage stabilizes, electricity usage increases), and Fall is September – November (gas usage increased, electricity usage decreases).
 
+Comments: The exaplanation of the chart is again quite similar to what I had reported in my answers. It is straightforward. The benefits of seasonal analysis could have been a little more specific, maybe give some special examples where it could have been useful. The definition of seasonal boundaries is perfect. It has been determined properly and exact reasoning has also been provided. 
+
 
 
 
@@ -39,6 +42,7 @@ For Northern California, I would define seasonal boundaries based on the amount 
 
 I first calculated the total number of electricity and gas customers separately by averaging the number of customers listed over the 12 months for each zip code and then summed them over all zip codes. To account for some zip codes having just electricity customers, some having just gas customers, and some having both, I calculated "avgkbtu" differently for each. For zip codes with just electricity or gas customers, the average kBTU per customer was the total electricity or gas kBTU for the year divided by the total respective customers. For the combined (electricity & gas customers) case, the two opposite ends of the spectrum to consider were that all electricity and gas customers are independent of each other or that all gas customers are also electricity customers. For residential areas, I believe it's more likely that gas and electricity customers are overlapped so I calculated average kBTU as total electricity + gas kBTU divided by the larger of electricity or gas customers.
 
+Comment: The formula used for calculation is same as what I have used with the extra detail added for zip codes where there are just gas customers or electricity customers. Using the maximum of the two is i think a valid estimate since it helps us get a conservative estimate upon which we can build on the further analysis.
 
 
 #### Q7 Paste a publicly viewable link to your Slides.
@@ -51,18 +55,20 @@ https://drive.google.com/open?id=1ImHp3HNFTN2WhCwSonvjgIqOxPKlhOsdFc8VFexiF6g
 
 It is interesting to see that Stanford's average kBTU consumption per customer is in the highest bracket whereas its total consumption is in the lowest bracket due to the zip code having fewer customers than the other zip codes near it. This agrees with my expectation that the average energy consumption per customer is high in Stanford because there are many students living close together (like in residence halls) that would constitute one "customer" by PG&E, but collectively they use a lot of electricity/gas.
 
-
+Comment: This is the same observations as me that many students are being considered as one customer by PG&E. Maybe could have added a more insight regarding why is the total consumption low. 
 
 #### Q9 Any other reactions to completing Pass One? What was especially challenging or surprising in the workflow? How might you expand on this analysis if you had more time?
 
 The most challenging parts for me were getting used to all of the different analysis tools and software that I have never used before (I'm still even getting used to slack) and trying to not get overwhelmed by them. I was surprised by how helpful and useful pivot tables are even though it took a while to understand. This analysis could be expanded by looking into the seasonal variations of energy consumption to see if there see if different areas use more energy at different times of the year or if the annual spatial variation of energy use is representative of the whole year.
 
+Comment: Good thinking regarding the expansion of the analysis.
 
 
 #### Q10 How would you compare the experienced or apparent work involved, as well as the usefulness of the outcome, of Pass One vs. Pass Two? How would you rate the difficulty of this assignment?
 
 There was much more work involved in Pass One than Pass Two but that is because I didn't write my own script for the R or Python code. If I had, I think Pass Two would have been much more difficult for me since I don't have much experience in either and even encountered some problems when using the provided R code. In terms of the end product of both passes, the usefulness is about the same, but in terms of how much I learned, the first pass was more helpful in teaching me how to use ArcGIS and how to process data.
 
+Comment: Since there wasnt much work involved in part 2 I think this assesment is quite accurate regarding the different passes. 
 
 
 #### Q11 In total, how long did Assignment 1 take?
