@@ -76,3 +76,9 @@ Part 3: Readings: 30 minutes
 Part 4: Practice Data Dive: Pass 1: 480 minutes (but I am slow and had to redo things a few times)
 
 Part 4: Practice Data Dive: Pass 2: 120 minutes
+
+
+
+Peer Review:
+
+For question 5, creating seasonal boundaries based on the fluctuations of gas and electricity usage is something I hadn't thought to do, but it definitely creates more concrete boundaries. For many of the questions, you focused on the differences between gas and electricity customers to calculate more accurate KBTU values, and this attention to detail made your calculations much more valid and reasonable for the situation. I didn't take into consideration that dorms full of students may be considered one singular "customer", but as you mentioned, that does make the high average KBTU values more understandable. I also noted the usefulness of pivot tables when completing the assignment, though I hadn't worked with them previously. My slides looked similar to yours.
